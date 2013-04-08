@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Bastard child of Slidedown, deck.js and organic fair trade Bolivian coffee}
 
   s.add_dependency 'thor'
-  s.add_dependency 'tilt'
+  s.add_dependency 'tilt', '= 1.3.5'
   s.add_dependency 'haml'
   s.add_dependency 'sass'
   s.add_dependency 'compass'
